@@ -19,6 +19,7 @@ body {
     margin: 0;
     background-color: #1f1f1f;
     height: 100%;
+    color:white;
 }
 
 div {
@@ -116,4 +117,11 @@ icon.image-holder:hover {
 
 img {
     mix-blend-mode: multiply;
+}
+
+.pixel-art {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
 }
