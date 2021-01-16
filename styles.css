@@ -8,6 +8,11 @@ h1 {
     color:white
 }
 
+h2 {
+    font-size: 250%;
+    color:white
+}
+
 body {
     font-family: regular;
     position:relative;
@@ -18,7 +23,6 @@ body {
 
 div {
     display: flex;
-    width: 100%;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -61,7 +65,6 @@ main {
 
 button {
     vertical-align: middle;
-    display: table-cell;
     width: 140px;
     height: 45px;
     font-family: regular;
@@ -80,8 +83,37 @@ button {
 }
 
 button:hover {
-    background-color: #2e6ee5;
-    box-shadow: 0px 15px 20px rgba(46, 89, 229, 0.4);
+    background-color: #bbbbbb;
+    box-shadow: 0px 15px 20px rgba(34, 34, 34, 0.4);
     color: #fff;
     transform: translateY(-7px);
+}
+
+.large-button {
+    border-radius: 4%;
+    height:200px;
+    width:200px;
+    cursor:pointer;
+    box-shadow: 0px 16px gray;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.icon {
+    width: 80%;
+    height: auto;
+    padding-top: 8%;
+}
+
+icon.image-holder {
+    transition: background-color .2s;
+    width: min-content;
+}
+
+icon.image-holder:hover {
+    background-color: #bbbbbb;
+}
+
+img {
+    mix-blend-mode: multiply;
 }
