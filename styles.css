@@ -22,12 +22,7 @@ body {
     color:white;
 }
 
-div {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
+
 
 main {
     display: flex;
@@ -38,9 +33,20 @@ main {
     flex-direction: column;
 }
 
+.code {
+
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+}
+
 .topnav {
     overflow: hidden;
     background-color: #333;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .topnav a {
@@ -142,4 +148,11 @@ li {
     background-color: #333;
     color: white;
     text-align: center;
+}
+
+.lesson-content {
+    display:inline-block;
+    width: 50%;
+    overflow-wrap: break-word;
+    hyphens: auto;
 }
